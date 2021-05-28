@@ -14,7 +14,6 @@ function Checkout() {
                     className="checkout__ad"
                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Vernac13th/1500x150_V2_Eng._CB412582591_.jpg"
                     alt="" />
-    
                 <div className="checkout__leftItem">
                     {user ? <h3>Hello, {user.email} </h3> : ""}
                 <h2 className="checkout__title">Shopping Cart</h2>
