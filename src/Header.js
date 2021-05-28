@@ -28,7 +28,7 @@ function Header() {
                     className="header__searchInput"
                     type="text" >
                 </input>
-                <SearchIcon className="header__searchIcon" />
+                <SearchIcon type ="submit" className="header__searchIcon" />
             </div>
 
             <div className="header__nav">

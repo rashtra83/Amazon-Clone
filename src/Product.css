@@ -12,6 +12,11 @@
     z-index: 1;
 }
 
+.product:hover{
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
 .product img{
     max-height: 200px;
     width: 100%;

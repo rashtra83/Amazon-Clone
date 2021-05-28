@@ -1,4 +1,3 @@
-
 import './App.css';
 import Header from "./Header"
 import Home from "./Home"
@@ -8,6 +7,8 @@ import Login from './Login';
 import { auth } from "./Firebase"
 import { useStateValue } from './StateProvider';
 import { useEffect } from 'react';
+import Payment from "./Payment";
+import Footer from "./Footer.js"
 
 function App() {
   const [, dispatch] = useStateValue();
@@ -41,10 +42,16 @@ function App() {
           <Route path="/checkout">
             <Header />
             <Checkout />
+            <Footer/>
+          </Route>
+          <Route path="/payment">
+            <Header />
+            <Payment />
           </Route>
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>

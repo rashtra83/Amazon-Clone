@@ -1,7 +1,7 @@
 .home__image{
     width: 100%;
     z-index: -1;
-    margin-bottom: -320px;
+    margin-bottom: -23%;
     mask-image: linear-gradient( to bottom, rgba(0,0,0,1),rgba(0,0,0,1), rgba(0,0,0,0))
 }
 
@@ -19,3 +19,14 @@
     margin-left: 5px;
     margin-right: 5px;
 }
+/* 
+.header__search input[type="text"] {
+    height: 20px;
+    padding-right: 50px;
+}
+
+.header__search input[type="submit"] {
+    margin-left: -150px;
+    height: 20px;
+    width: 50px;
+} */
